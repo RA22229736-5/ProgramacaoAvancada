@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author miske
+ * @author miskedma
  */
 public class ProgramcaoAvancadaAula01 {
 
@@ -17,20 +17,20 @@ public class ProgramcaoAvancadaAula01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+   
         System.out.println("Hello world!");
         JOptionPane.showMessageDialog(null, "OI");
 
         int idade = 20;
-//        
-//        double preco = 12.5;
-//        
+        
+        double preco = 12.5;
+        
         String nome = "Kédma";
         System.out.println("Nome que está na tela é " + nome);
-//        Scanner ler = new Scanner(System.in);
-//        
-//        System.out.println("Digite a idade de uma pessoa ");
-//        idade = ler.nextInt();
+        Scanner ler = new Scanner(System.in);
+        
+        System.out.println("Digite a idade de uma pessoa ");
+        idade = ler.nextInt();
         System.out.println("A idade digitada foi " + idade);
         String idadeStr = JOptionPane.showInputDialog("Digite a idade de uma pessoa");
         idade = Integer.parseInt(idadeStr);
