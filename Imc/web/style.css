@@ -1,0 +1,35 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 de out de 2022, 12:36:09
+    Author     : miske
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    text-decoration: none;
+}
+
+input, button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #3d1eb9;
+}
+button:hover{
+    background-color: #93d8e399;
+    transition: 2s;
+}
+
+table, th, td, input {
+    padding: 3px;
+    border: 1px solid blue;
+    border-collapse: collapse;
+
+}
