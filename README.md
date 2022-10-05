@@ -1,2 +1,2 @@
-# ProgramacaoAvancada
-Estudos repos de estudos na Linguagem JAVA
+# Disciplina Programação Avançada
+Projetos de estudos feitos na Linguagem JAVA
